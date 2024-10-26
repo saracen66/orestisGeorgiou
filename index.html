@@ -32,7 +32,7 @@
             </div>
             <ul
               tabindex="0"
-              class="text-center items-center menu menu-md dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-2 mx-auto w-dvw h-72 p-0"
+              class="text-center text-white items-center menu menu-md dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-2 mx-auto w-dvw h-72 p-0"
             >
               <li><a>HOME</a></li>
               <li><a>ABOUT</a></li>
@@ -44,10 +44,14 @@
               <li><a>CONTACT</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">daisyUI</a>
+          <img
+            class="w-3/12 p-4"
+            src="./images/Orestis-Georgiou-logo-web-white.png"
+            alt=""
+          />
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
+          <ul class="menu menu-horizontal px-1 text-white">
             <li><a>HOME</a></li>
             <li><a>ABOUT</a></li>
             <li><a>ORESTIFY</a></li>
@@ -60,10 +64,45 @@
         </div>
       </div>
     </header>
-    <main class="bg-red-200">
-      <h1 class="text-center items-center text-white text-4xl mt-8">
-        Hello World
-      </h1>
+
+    <main class="bg-dark-main">
+      <!-- Hero section -->
+      <div class="flex h-screen bg-dark-main">
+        <!-- Left Div (50%) -->
+        <div
+          class="w-1/2 relative text-white p-12 flex flex-col justify-center"
+        >
+          <h1 class="uppercase text-sm tracking-widest">Orestis Georgiou</h1>
+
+          <!-- Orange Underline -->
+          <div class="relative mt-2">
+            <div class="absolute left-0 top-0 h-1 bg-orange-500 w-[150%]"></div>
+          </div>
+
+          <!-- Text -->
+          <h2 class="text-6xl font-bold mt-8 leading-tight relative z-10">
+            Researcher.<br />Inventor.<br />Author.
+          </h2>
+        </div>
+
+        <!-- Right Div (50%) -->
+        <div class="w-1/2 relative">
+          <img
+            src="./images/orestis-georgiou-hero-sec.jpg"
+            alt="Person Image"
+            class="object-cover w-full h-full"
+          />
+        </div>
+      </div>
+      <div class="w-7/12 pl-12 pt-8">
+        <p class="text-white text-3xl">
+          An experienced researcher, inventor, and author, with a track record
+          at leading R&D teams, writing winning grant proposals, whilst being
+          passionate about deep-tech innovation that leads to impact.
+        </p>
+      </div>
+
+      <!-- Biography section -->
     </main>
   </body>
 </html>
